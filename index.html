@@ -1,59 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Garv Kashyap - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Garv Kashyap</h1>
-    <p>B.Tech CSE Student | Manav Rachna University, Faridabad</p>
-  </header>
+<!-- Dark Mode Toggle -->
+<button onclick="toggleDarkMode()">Toggle Dark Mode</button>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I’m Garv Kashyap, currently pursuing B.Tech in Computer Science Engineering at Manav Rachna University, Faridabad. 
-       I’m originally from Agra and completed my schooling at St. Mary’s Convent School (ICSE Board). 
-       I’m passionate about technology, anime, and RPG games.</p>
-  </section>
+<!-- Example Expand/Collapse -->
+<button onclick="toggleSection('skills')">Toggle Skills</button>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>C Programming (file handling, debugging)</li>
-      <li>MicroPython & Raspberry Pi Pico automation</li>
-      <li>Hardware interfacing & troubleshooting</li>
-      <li>Web development basics (HTML, CSS, GitHub Pages)</li>
-    </ul>
-  </section>
+<!-- Back to Top Button -->
+<button id="backToTop" onclick="scrollToTop()" style="display:none;position:fixed;bottom:20px;right:20px;">
+  ↑ Back to Top
+</button>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Automatic Fan Controller</h3>
-      <p>Designed a temperature‑based fan control system using Raspberry Pi Pico, thermistor, and LCD display.</p>
-    </div>
-    <div class="project">
-      <h3>File Handling in C</h3>
-      <p>Implemented struct‑based storage with binary/text file operations and robust error handling.</p>
-    </div>
-  </section>
-
-  <section id="interests">
-    <h2>Interests</h2>
-    <p>I enjoy watching anime, playing RPG games, and exploring new tech projects.</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: rajkumarikashyap749@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/Rimuru-106">github.com/yourusername</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2026 Garv Kashyap</p>
-  </footer>
-</body>
-</html>
+<!-- Link JS file -->
+<script src="script.js"></script>
